@@ -1,0 +1,237 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+}
+body{
+    background:#080808;
+    color: #fff;
+    font-family: italic;
+}
+#header{
+    width:100%;
+    height: 100vh;
+    background-image: url('images/AANYA PHOTO.jpg');
+    background-size: 400px 400px;
+    background-position: 800px 200px;
+    background-repeat: no-repeat;
+}
+.container{
+    padding:10px 10%;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:#aa56a6 ;
+}
+.logo{
+    width:140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+}
+.navbar li a:hover{
+    color: #ff004f;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+.header-text h1{
+    margin-top: 20%;
+    font-size: 60px;
+}
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width:100%;
+}
+.about-col-2{
+    flex-basis: 60%;    
+}
+.sub-title{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+}
+.tab-titles{
+    font-size:30px;
+    margin: 20px 0 40px;
+}
+button{
+    width:140px;
+    border:0;
+    padding:12px 10px;
+    outline: none;
+    color:#fff;
+    background: linear-gradient(to right,#aa56a6,#db53a2);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button img{
+    height:25px;
+    width:10px;
+    display: none;
+}
+button:hover img{
+    display: flex;
+}
+button:hover{
+    width: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#academics{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-3{
+    flex-basis: 60%;
+}
+.about-col-4{
+   flex-basis: 35%;
+   float:right;
+}
+.about-col-4 img{
+    width:100%; 
+    height:100%; 
+}
+.sub-title2{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+}
+#qual{
+    font-size: 30px;
+    margin: 20px 0 40px;
+}
+#skills{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-5{
+    flex-basis: 35%;
+}
+.about-col-6{
+   flex-basis: 60%;
+}
+.about-col-5 img{
+    width:100%; 
+    height:100%; 
+}
+.sub-title3{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+}
+#tech{
+    font-size:30px;
+    margin: 20px 0 40px;
+}
+#hobbies{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-7{
+    flex-basis: 60%;
+}
+.about-col-8{
+   flex-basis: 35%;
+   float:right;
+}
+.about-col-8 img{
+    width:100%; 
+    height:100%; 
+}
+.tab-title3{
+    font-size:30px;
+    margin: 20px 0 40px;
+}
+.contact-left{
+    flex-basis: 40%;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.sub-title4{
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+}
+.contact-left p{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.contact-left p i{
+    color: rgb(23, 199, 23);
+    margin-right:15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 40px;
+    margin-right: 15px;
+    color:#ababab;
+    display: inline-block;
+}
+.social-icons a:hover{
+    color:palevioletred;
+    cursor:pointer;
+    transform: translateY(-5px);
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border:0;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 14px;
+}
+.copyright{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px;  
+}
